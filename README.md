@@ -15,13 +15,13 @@ This project is a backend implementation of a login and signup REST API with sec
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/Shimbhu77/GreenStitch_Assignment.git
+git clone https://github.com/ROHITHH50/Greenstich_assignment.git
 ```
 
 ### 2. Go the Project
 
 ```
-cd GreenStitch_Assignment/GreenStitch_Assignment
+cd Greenstitch_assignment/Greenstitch_assignment
 
 ```
 
@@ -45,9 +45,9 @@ cd GreenStitch_Assignment/GreenStitch_Assignment
 ```
 
 {
-  "fullName": "Shimbhu Kumawat",
-  "password": "Shimbhu@123",
-  "email": "sk@gmail.com"
+  "fullName": "Rohith",
+  "password": "Rohith@1$",
+  "email": "rk@gmail.com"
 }
 ```
 
@@ -56,9 +56,9 @@ cd GreenStitch_Assignment/GreenStitch_Assignment
 ```
 {
     "id": 1,
-    "fullName": "Shimbhu Kumawat",
+    "fullName": "Rohith",
     "password": "$2a$10$KVzpEHKFpX2ephA7RXLgqumnZKFy3bT8wdJMW3tYH2yqUJcpZPGSG",
-    "email": "sk@gmail.com",
+    "email": "rk@gmail.com",
     "role": "ROLE_USER"
 }
 
@@ -70,16 +70,16 @@ cd GreenStitch_Assignment/GreenStitch_Assignment
 - Path: `http://localhost:8888/app/sign-in`
 - Description: Authenticate a user and retrieve their details and JWT token.
 - Authentication: Basic Authentication (Username and Password)
-    - Username: [sk@gmail.com](mailto:sk@gmail.com)
-    - Password: Shimbhu@123
+    - Username: [rk@gmail.com](mailto:rk@gmail.com)
+    - Password: Rohith@1$
 - Response:
 
 ```
 {
     "id": 1,
-    "fullName": "Shimbhu Kumawat",
+    "fullName": "Rohith",
     "password": "$2a$10$KVzpEHKFpX2ephA7RXLgqumnZKFy3bT8wdJMW3tYH2yqUJcpZPGSG",
-    "email": "sk@gmail.com",
+    "email": "rk@gmail.com",
     "role": "ROLE_USER"
 }
 
